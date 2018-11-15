@@ -1,0 +1,31 @@
+.peo-title {
+    text-align: center;
+}
+
+.peo-img-container{
+    margin: 10px 30rpx 10px 30rpx;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid blue;
+    background-color: #788040;
+}
+
+.peo-img-item{
+    width: 25%;
+    text-align: center;
+}
+
+/* .peo-img-item:nth-child(odd) {
+    background-color: gray;
+}   
+.peo-img-item:nth-child(even) {
+    background-color: lightgray;
+} */
+
+.peo-img-item image {
+    width: 150rpx;
+    height: 150rpx;
+}
+
+

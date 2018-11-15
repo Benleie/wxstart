@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/posts/post",
+    "pages/posts/post-detail/post-detail",
+    "pages/master/people"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#405f80"
+  },
+
+  "tabBar": {
+    "selectedColor": "#2e5e86",
+    "list": [{
+        "pagePath": "pages/welcome/welcome",
+        "text": "首页",
+        "iconPath": "images/tab/home.png",
+        "selectedIconPath": "images/tab/home_hl.png"
+      },
+      {
+        "pagePath": "pages/master/people",
+        "text": "人物",
+        "iconPath": "images/tab/people.png",
+        "selectedIconPath": "images/tab/people_hl.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+<view>
+    <view class="peo-title" >文化名人</view>
+    <view class="peo-img-container" >
+        <view 
+            class="peo-img-item" 
+            wx:for="{{people}}" 
+            wx:key="{{index}}"
+        >
+            <image src="{{ item.imgSrc }}" />
+        </view>
+    </view>
+</view>
