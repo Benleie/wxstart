@@ -3,7 +3,8 @@
     "pages/welcome/welcome",
     "pages/posts/post",
     "pages/posts/post-detail/post-detail",
-    "pages/master/people"
+    "pages/master/people",
+    "pages/test/test"
   ],
   "window": {
     "navigationBarBackgroundColor": "#405f80"
@@ -12,10 +13,16 @@
   "tabBar": {
     "selectedColor": "#2e5e86",
     "list": [{
-        "pagePath": "pages/welcome/welcome",
+        "pagePath": "pages/posts/post",
         "text": "首页",
         "iconPath": "images/tab/home.png",
         "selectedIconPath": "images/tab/home_hl.png"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "测试",
+        "iconPath": "images/tab/yuedu.png",
+        "selectedIconPath": "images/tab/yuedu_hl.png"
       },
       {
         "pagePath": "pages/master/people",

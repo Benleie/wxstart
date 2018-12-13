@@ -1,6 +1,6 @@
 Page({
   data: {
-    motto: 'Hello World',
+    motto: '点击触发事件跳转',
     
   },
   //事件处理函数
@@ -8,6 +8,7 @@ Page({
     wx.redirectTo({
       url: '../posts/post'
     });
+    console.log("redirectTo!")
   }
   
 })

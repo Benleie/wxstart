@@ -6,6 +6,7 @@
             wx:for="{{people}}" 
             wx:key="{{index}}"
         >
+            <text> {{ item.name }} </text>
             <image src="{{ item.imgSrc }}" />
         </view>
     </view>
